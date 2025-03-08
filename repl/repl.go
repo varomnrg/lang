@@ -8,7 +8,7 @@ import (
 	"lang/token"
 )
 
-const PROMPT = ">>"
+const PROMPT = "lang>> "
 
 func Start(in io.Reader, out io.Writer) {
 	scanner := bufio.NewScanner(in)
